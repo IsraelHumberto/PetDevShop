@@ -1,0 +1,30 @@
+{
+  "name": "petdevshop",
+  "version": "1.0.0",
+  "description": "App desenvolvido de acordo com o curso da B7Web - NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon -e ts,json,mustache src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsraelHumberto/PetDevShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsraelHumberto/PetDevShop/issues"
+  },
+  "homepage": "https://github.com/IsraelHumberto/PetDevShop#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mustache-express": "^1.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.19",
+    "@types/mustache-express": "^1.2.3",
+    "@types/node": "^20.8.5"
+  }
+}
